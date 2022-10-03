@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  front_end:
+    build:
+      dockerfile: Dockerfile
+      context: "./"
+    ports:
+      - 8080:8080
+      - 6006:6006
+
